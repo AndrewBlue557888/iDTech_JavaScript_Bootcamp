@@ -1,0 +1,24 @@
+some things that may be important to note:
+
+1. I did all 4 checkpoints, each should work fine, 
+and are generally faithful to what's intended, 
+with a few uncertainties.
+
+2. in the first example, my method seems to be the 
+intended one, but does not "count down from 5 to 1" as 
+instructed in the TODO, I assume this is a mistake? 
+and if not, is this still okay? I did the other 3 
+anyway.
+
+3. as for example 4, canceling gives a null, 
+but the error just closes it, and it can be reopened 
+without refreshing, so I assume that's intentional, 
+especially since my first idea to have it check for 
+null, would just make an endless loop, 
+if it worked at all.
+
+4. also in example 4, pass must be exactly 10 chars, 
+given the wording of the prompt, I assume that's 
+intentional too? I said such in my notes, but since 
+it's not in the "DONT CHANGE" section, and since im 
+writing this anyway, I figured I'd clarify. 
